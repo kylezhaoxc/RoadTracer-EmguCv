@@ -1,0 +1,16 @@
+﻿<Window x:Class="TestWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestWpf"
+        mc:Ignorable="d"
+        Title="MainWindow">
+    <Grid> 
+		<Ellipse Height="20" Fill="Red" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,5,0,0" Name="ell_flag"
+		         Stroke="Red" Width="20" />
+		<Image x:Name="cam" HorizontalAlignment="Left" Height="300" Margin="10,30,0,0" VerticalAlignment="Top" Width="400" />
+        <Image x:Name="cam_right" HorizontalAlignment="Left" Height="300" Margin="415,30,-55,0" VerticalAlignment="Top"
+		       Width="400" />
+    </Grid>
+</Window>
