@@ -51,26 +51,5 @@ namespace TestWpf
             return bs;
         }
 
-        public static void TellDirection(Image destImgToShow, Label destTxtToShow, string directionTxt)
-        {
-            switch (directionTxt)
-            {
-                case "Turn Left!":
-                    show_Image(destImgToShow,
-                        new Image<Bgr, byte>(AppDomain.CurrentDomain.BaseDirectory + "\\images\\left.jpg"));
-                    destTxtToShow.Content = "Turn Left!";
-                    break;
-                case "Turn Right!":
-                    show_Image(destImgToShow,
-                        new Image<Bgr, byte>(AppDomain.CurrentDomain.BaseDirectory + "\\images\\right.jpg"));
-                    destTxtToShow.Content = "Turn Right!";
-                    break;
-                case "Go Straight!":
-                    show_Image(destImgToShow,
-                        new Image<Bgr, byte>(AppDomain.CurrentDomain.BaseDirectory + "\\images\\straight.jpg"));
-                    destTxtToShow.Content = "Go Straight!";
-                    break;
-            }
-        }
     }
 }
