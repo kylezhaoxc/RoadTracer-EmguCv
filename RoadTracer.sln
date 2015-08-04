@@ -23,15 +23,19 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{F9CDF9B0-FE18-4264-AD64-1FCB0E5B6234}"
 	ProjectSection(SolutionItems) = preProject
 		Screenshots\1-canny.jpg = Screenshots\1-canny.jpg
+		Screenshots\1-HoughLines.jpg = Screenshots\1-HoughLines.jpg
 		Screenshots\1-lines.jpg = Screenshots\1-lines.jpg
 		Screenshots\1.jpg = Screenshots\1.jpg
 		Screenshots\2-canny.jpg = Screenshots\2-canny.jpg
+		Screenshots\2-HoughLines.jpg = Screenshots\2-HoughLines.jpg
 		Screenshots\2-lines.jpg = Screenshots\2-lines.jpg
 		Screenshots\2.jpg = Screenshots\2.jpg
 		Screenshots\3-canny.jpg = Screenshots\3-canny.jpg
+		Screenshots\3-HoughLines.jpg = Screenshots\3-HoughLines.jpg
 		Screenshots\3-lines.jpg = Screenshots\3-lines.jpg
 		Screenshots\3.jpg = Screenshots\3.jpg
 		Screenshots\4-canny.jpg = Screenshots\4-canny.jpg
+		Screenshots\4-HoughLines.jpg = Screenshots\4-HoughLines.jpg
 		Screenshots\4-lines.jpg = Screenshots\4-lines.jpg
 		Screenshots\4.jpg = Screenshots\4.jpg
 	EndProjectSection
