@@ -43,7 +43,7 @@ The bisector of the angle formed by the vanishing point and the edge of the two 
 ![image](https://github.com/kylezhaoxc/RoadTracer-EmguCv/raw/master/Screenshots/1-lines.jpg)
 <br>
 
-Other examples like:
+I will add some other examples :
 ![image](https://github.com/kylezhaoxc/RoadTracer-EmguCv/raw/master/Screenshots/2.jpg)
 ![image](https://github.com/kylezhaoxc/RoadTracer-EmguCv/raw/master/Screenshots/2-canny.jpg)
 ![image](https://github.com/kylezhaoxc/RoadTracer-EmguCv/raw/master/Screenshots/2-HoughLines.jpg)
@@ -59,5 +59,4 @@ Other examples like:
 ![image](https://github.com/kylezhaoxc/RoadTracer-EmguCv/raw/master/Screenshots/4-HoughLines.jpg)
 ![image](https://github.com/kylezhaoxc/RoadTracer-EmguCv/raw/master/Screenshots/4-lines.jpg)
 
-##Limitations 
-
+Hope it helps!
