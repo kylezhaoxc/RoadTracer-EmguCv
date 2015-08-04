@@ -121,7 +121,7 @@ namespace TestWpf
                                 cam.Source = _bitmapImage;
 
                                 observed = new Image<Bgr, byte>(UiHandler.Bmimg2Bitmap(_bitmapImage));
-                                Operator op = new Operator();
+                                Operator op = new Operator(640, 480, 280);
                                 try
                                 {
                                     op.FindMiddleByImg(observed);

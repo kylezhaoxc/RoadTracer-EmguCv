@@ -6,7 +6,7 @@ namespace TestConsole
     {
         static void Main(string[] args)
         {
-            Operator op = new Operator();
+            Operator op = new Operator(640,480,280);
 
             try { op.FindMiddleByPath("D:\\5.jpg"); }
             catch (TextException ex)

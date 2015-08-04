@@ -8,10 +8,16 @@ namespace RoadTracer
 {
     public class Operator
     {
-        public static int Img_Width=640;
-        public static int Img_Height = 480;
-        public static int Roi_Height = 280;
-        private Image<Bgr, byte> temp;
+        private readonly int Img_Width=640;
+        private readonly int Img_Height = 480;
+        private readonly int Roi_Height = 280;
+        Image<Bgr, byte> temp;
+        public Operator(int i_w, int i_h, int r_h)
+        {
+            Img_Width = i_w;
+            Img_Height = i_h;
+            Roi_Height = r_h;
+        }
         public  void FindMiddleByPath(string url)
         {
             Image<Bgr, byte> img = new Image<Bgr, byte>(url);
