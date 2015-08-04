@@ -10,9 +10,9 @@ Wrapped some tool functions like calculating the distance to a line, and find th
 Kernel logical process of finding proper lines and calculating bisectors.
 ######->TextException.cs
 My Own exception type, maybe useful in the future?
-#####*TestConsole
+####*TestConsole
 A console application to test static images. Exceptions will be shown on the terminal window and break the process.
-#####*TestWpf
+####*TestWpf
 A Wpf Application to test video stream, any exceptions will stop current process and go on with next frame. Except for MainWindow.xaml, App.xaml and some basic things, I added this:
 ######->UIHandler.cs
 To display or change the image shown on the form is sooooo complicated in wpf, especially with Emgu.CV.Image<>.
