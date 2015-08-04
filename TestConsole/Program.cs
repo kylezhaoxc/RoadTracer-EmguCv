@@ -8,7 +8,7 @@ namespace TestConsole
         {
             Operator op = new Operator();
 
-            try { op.FindMiddleByPath("D:\\4.jpg"); }
+            try { op.FindMiddleByPath("D:\\6.jpg"); }
             catch (TextException ex)
             {
                 Console.WriteLine(ex.Message);

@@ -31,8 +31,8 @@ namespace RoadTracer
             }
 
             //find the average line of two groups above
-            if (positiveLines.Count == 0) throw new TextException("No negative Line, Try turn right!");
-            if (negativeLines.Count==0) throw new TextException("No positive  Line,Try turn left!");
+            if (positiveLines.Count == 0) throw new TextException("No negative Line, Try look right!");
+            if (negativeLines.Count==0) throw new TextException("No positive  Line,Try look left!");
             LineSegment2DF posline = helper.AvrageLine(positiveLines);
             LineSegment2DF negline = helper.AvrageLine(negativeLines);
             
@@ -82,8 +82,8 @@ namespace RoadTracer
             }
 
             //find the average line of two groups above
-            if (positiveLines.Count == 0) throw new TextException("No negative Line");
-            if (negativeLines.Count == 0) throw new TextException("No positive Line");
+            if (positiveLines.Count == 0) throw new TextException("No negative Line, Try look right!");
+            if (negativeLines.Count == 0) throw new TextException("No positive  Line,Try look left!");
             LineSegment2DF posline = helper.AvrageLine(positiveLines);
             LineSegment2DF negline = helper.AvrageLine(negativeLines);
 
