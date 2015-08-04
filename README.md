@@ -12,7 +12,7 @@ For an incoming frame, the contour will be extracted with canny method, and seve
 After filtering unreasonable lines, the rest of the lines will be preserved and calculate the vanishing point of the image.
 The bisector of the angle formed by the vanishing point and the edge of the two sides of the hallway will be the center line.
 
-![image](https://github.com/kylezhaoxc/RoadTracer-EmguCv/Screenshots/1.jpg)
+![image](https://github.com/kylezhaoxc/RoadTracer-EmguCv/raw/master/Screenshots/1.jpg)
 ![image](https://github.com/kylezhaoxc/RoadTracer-EmguCv/Screenshots/1-canny.jpg)
 ![image](https://github.com/kylezhaoxc/RoadTracer-EmguCv/Screenshots/1-HoughLines.jpg)
 ![image](https://github.com/kylezhaoxc/RoadTracer-EmguCv/Screenshots/1-lines.jpg)
