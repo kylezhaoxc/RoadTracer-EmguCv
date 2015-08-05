@@ -112,8 +112,7 @@ namespace TestWpf
                     {
                         try
                         {
-                            if (!interrupt)
-                            {
+                           
                                 _bitmapImage = new BitmapImage();
                                 _bitmapImage.BeginInit();
                                 _bitmapImage.StreamSource = _stream; // Copy stream to local
@@ -122,25 +121,9 @@ namespace TestWpf
 
                                 observed = new Image<Bgr, byte>(UiHandler.Bmimg2Bitmap(_bitmapImage));
                                 Operator op = new Operator(640, 480, 280);
-                                try
-                                {
-                                    op.FindMiddleByImg(observed);
+                               
+                                    status.Content= op.FindMiddleByImg(observed);
                                     UiHandler.show_Image(cam_right, op.GetRoadImg());
-                                }
-                                catch (TextException ex)
-                                {
-                                    interrupt = true;
-                                    MessageBox.Show(ex.Message);
-                                    interrupt = false;
-                                }
-                            }
-                            else {
-                                _bitmapImage = new BitmapImage();
-                                _bitmapImage.BeginInit();
-                                _bitmapImage.StreamSource = _stream; // Copy stream to local
-                                _bitmapImage.EndInit();
-                                cam.Source = _bitmapImage;
-                            }
                         }
 
                         catch (Exception)

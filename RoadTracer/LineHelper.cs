@@ -65,7 +65,7 @@ namespace RoadTracer
             img.ROI = new Rectangle(new Point(0, Img_Height - Roi_Height), new Size(Img_Width, Roi_Height));
             gray.ROI = new Rectangle(new Point(0, Img_Height - Roi_Height), new Size(Img_Width, Roi_Height));
             Image<Gray, byte> canny = gray.Canny(150, 50);
-            canny.Save("D:\\temp\\canny.jpg");
+            //canny.Save("D:\\temp\\canny.jpg");
             Image<Bgr, byte> lineimage = img;
             lines = canny.HoughLines(1, 2, 3, Math.PI / 180, 150, 80, 400);
             foreach (LineSegment2D line in lines[0])
@@ -79,7 +79,7 @@ namespace RoadTracer
                 }
             }
             temp = lineimage;
-            lineimage.Save("D:\\temp\\HoughLines.jpg");
+            //lineimage.Save("D:\\temp\\HoughLines.jpg");
             return ListOfLines;
 
         }
